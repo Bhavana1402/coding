@@ -4,7 +4,7 @@ class Solution {
         int maxLength = 0;
         Set<Character> charSet = new HashSet<>();
         int left = 0;
-        
+    
         for (int right = 0; right < n; right++) {
             if (!charSet.contains(s.charAt(right))) {
                 charSet.add(s.charAt(right));
